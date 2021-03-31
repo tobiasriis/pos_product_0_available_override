@@ -1,4 +1,3 @@
-console.log("LOADED! ")
 odoo.define('point_of_sale.models', function (require) {
     "use strict";
 
