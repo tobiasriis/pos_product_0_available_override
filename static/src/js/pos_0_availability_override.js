@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.models', function (require) {
+odoo.define('point_of_sale.models_0_stock_override', function (require) {
     "use strict";
 
     var ajax = require('web.ajax');
