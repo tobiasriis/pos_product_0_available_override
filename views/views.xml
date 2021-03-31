@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <template
+        id="assets_backend"
+        name="pos_0_availability_override"
+        inherit_id="point_of_sale.assets">
+
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="pos_product_0_available_override/static/src/js/pos_0_availability_override.js"></script>
+        </xpath>
+    </template>
+</odoo>
